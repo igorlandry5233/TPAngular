@@ -1,0 +1,6 @@
+<mat-card class="team-card-box" *ngFor="let team of teams;" (click)="onSelectTeam(team)">
+  <mat-card-content>
+    <span> Name : {{team.name}}</span>
+    <span> / Slogan : {{team.slogan}}</span>
+  </mat-card-content>
+</mat-card>

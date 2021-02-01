@@ -1,0 +1,7 @@
+<div *ngIf="team">
+  <p>L'équipe en cours est!</p>
+  <h1>{{team.name}}</h1>
+  <h2>{{team.slogan}}</h2>
+  <h3> ID : {{team.id}}</h3>
+  <button mat-raised-button color="primary" (click)="goBack()"> Retour</button>
+</div>
